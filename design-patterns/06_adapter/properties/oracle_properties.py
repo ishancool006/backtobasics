@@ -1,3 +1,3 @@
-min=True
-max=True
-count=True
+min = True
+max = True
+count = True

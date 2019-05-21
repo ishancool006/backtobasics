@@ -2,6 +2,7 @@ from analytics.adappters.base_adapter import BaseAdapter
 from analytics.drivers.postgres import PostgreSQL
 import analytics.properties.postgres_properties as properties
 
+
 class PostgreSQLAdapter(BaseAdapter):
     def __init__(self):
         self.name = "PostgreSQLAdapter"

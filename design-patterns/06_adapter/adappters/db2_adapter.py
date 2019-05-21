@@ -2,6 +2,7 @@ from analytics.adappters.base_adapter import BaseAdapter
 from analytics.drivers.db2 import DB2
 import analytics.properties.db2_properties as properties
 
+
 class DB2Adapter(BaseAdapter):
     def __init__(self):
         self.name = "DB2Adapter"

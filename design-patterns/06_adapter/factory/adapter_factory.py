@@ -5,6 +5,8 @@ from analytics.adappters.oracle_adapter import OracleAdapter
 from analytics.adappters.postgres_adapter import PostgreSQLAdapter
 
 import analytics.properties.config as config
+
+
 class DBFactory:
     @staticmethod
     def create():

@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-class BaseAdapter(ABC):
 
+class BaseAdapter(ABC):
     @abstractmethod
     def connect(self, parameters=None):
         return "BaseAdapter"

@@ -2,6 +2,7 @@ from analytics.adappters.base_adapter import BaseAdapter
 from analytics.drivers.oracle import Oracle
 import analytics.properties.oracle_properties as properties
 
+
 class OracleAdapter(BaseAdapter):
     def __init__(self):
         self.name = "OracleAdapter"
