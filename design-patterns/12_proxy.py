@@ -9,7 +9,6 @@ class DB2:
         return "count"
 
 
-
 class DB2Proxy:
     def __init__(self, parameters):
         self.name = "DB2 Proxy"
@@ -25,13 +24,13 @@ class DB2Proxy:
         return self.cached_result
 
 
-
 def show_some_results():
     proxy_object = DB2Proxy("parameters")
     results = proxy_object.execute("count")
     print(results)
     results = proxy_object.execute("count")
     print(results)
+
 
 if __name__ == "__main__":
     show_some_results()
